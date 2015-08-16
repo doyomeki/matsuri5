@@ -12,3 +12,24 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 
 # Windows does not come with time zone data
 gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
+
+# For Github master commit
+gem 'middleman-deploy'
+# For Github Page
+gem 'middleman-gh-pages'
+
+# favicon-maker
+gem "middleman-favicon-maker"
+
+# Google analytics
+gem 'middleman-google-analytics'
+
+gem 'execjs'
+gem 'therubyracer'
+
+gem 'rake'
+
+gem 'sass'
+gem 'compass'
+gem 'susy'
+gem 'compass-h5bp'
